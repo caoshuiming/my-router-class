@@ -1,6 +1,9 @@
 <template>
   <div>
-    <button @click="baidu">baidu</button>
+    <a href="https://www.baidu.com/">百度</a>
+    <br>
+    <br>
+    <button @click="baidu">新窗口百度</button>
   </div>
 </template>
 
