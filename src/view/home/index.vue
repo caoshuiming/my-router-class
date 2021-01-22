@@ -11,7 +11,7 @@
     <br>
     <router-link to="/personal">个人中心</router-link>
     <br>
-    <router-link to="/baidu">百度</router-link>
+    <router-link to="/baidu">打开新的百度</router-link>
   </div>
 </template>
 

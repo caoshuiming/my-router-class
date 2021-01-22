@@ -1,12 +1,17 @@
 <template>
   <div>
-    <a href="www.baidu.com">百度一下</a>
+    <button @click="baidu">baidu</button>
   </div>
 </template>
 
 <script>
 export default {
-  name: "baidu"
+  name: "baidu",
+  methods:{
+    baidu(){
+      window.open("https://www.baidu.com/")
+    }
+  }
 }
 </script>
 
